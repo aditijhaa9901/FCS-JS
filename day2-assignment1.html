@@ -1,0 +1,26 @@
+<html>
+    <title>Assignment 1</title>
+    <head>
+        <h3>NAME: ADITI JHA</h3>
+        <h2>EMAIL-ID: aditijha9901@gmail.com</h2>
+    </head>
+    <body>
+        <script>
+            Days=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+            var d,hr,sec;
+            date= new Date();
+            d= date.getDay();
+            hr= date.getHours();
+            sec= date.getSeconds();
+            min= date.getMinutes();
+            if(hr>12){
+                hr= hr-12+" PM "
+            }
+            else{
+                hr= hr+ " AM "
+            }
+            document.write("Today is "+Days[d]+"<br>");
+            document.write("Current time is "+hr+":"+min+":"+sec)
+        </script>
+    </body>
+</html>
