@@ -1,0 +1,10 @@
+<html>
+    <title>Assignment 2</title>
+    <head>
+        <h3>NAME: ADITI JHA</h3>
+        <h3>EMAIL: aditi.jha9901@gmail.com</h3>
+    </head>
+    <body>
+        <button type="button" onclick="window.print()"> Click here to print </button>
+    </body>
+</html>
