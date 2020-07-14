@@ -7,6 +7,6 @@ There are eight basic data types in JavaScript.
 5. The special value undefined also stands apart. It makes a type of its own, just like null. The meaning of undefined is “value is not assigned”. If a variable is declared, but not assigned, then its value is undefined.
 6. The object type is special. All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.
 7. The typeof operator returns the type of the argument. It’s useful when we want to process values of different types differently or just want to do a quick check.
-7. It supports two forms of syntax.
-7. As an operator: typeof x.
+It supports two forms of syntax.
+As an operator: typeof x.
          As a function: typeof(x).
