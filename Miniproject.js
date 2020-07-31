@@ -1,25 +1,16 @@
+//Write a program to create a stopwatch.
 <!DOCTYPE HTML> 
-
 <html> 
-
 <head> 
-
 <style> 
 p { 
-
   text-align: center; 
-
   font-size: 60px; 
 } 
-
 </style> 
-
 </head> 
-
 <body> 
-
 <p id="demo"></p> 
-
 <script> 
 var deadline = new Date("Aug 1, 2020 01:47:25").getTime(); 
 var x = setInterval(function() { 
@@ -41,9 +32,5 @@ document.getElementById("demo").innerHTML = days + "d "
     } 
 }, 1000); 
 </script> 
-
-  
-
 </body> 
-
 </html> 
